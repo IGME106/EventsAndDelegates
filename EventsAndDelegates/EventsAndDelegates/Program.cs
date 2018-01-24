@@ -10,7 +10,7 @@ namespace EventsAndDelegates
     
     public class Program
     {
-        const int NUMBERoFrOLLS = 20;
+        const int NUMBERoFrOLLS = 100;
 
         static void Main(string[] args)
         {            
@@ -21,7 +21,7 @@ namespace EventsAndDelegates
 
             Console.WriteLine("Rolling lots of dice:");
 
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < NUMBERoFrOLLS; i++)
             {
                 int rolledValue = die.Roll();
 
